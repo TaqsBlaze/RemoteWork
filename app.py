@@ -1,0 +1,10 @@
+from remotework import app
+
+'''
+THIS FILE IS RESPONSIBLE FOR STARTING THE APPLICATION
+'''
+
+
+if __name__ == "__main__":
+    
+    app.run(host = '0.0.0.0', port = 80, debug = True)
